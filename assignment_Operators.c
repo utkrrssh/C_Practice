@@ -1,7 +1,6 @@
 #include <stdio.h>
+extern int x = 20;
 int main(){
-
-    int x = 20;
     
     printf("Given Value of x is : %d\n",x);
     printf("Incrementing x by 5 Gives : %d\n",x+=5);

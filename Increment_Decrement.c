@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main(){
 
-    int a = 4;
+    auto int a = 4;
     printf("The Value of 'a' post-increment:%d\n", a++);
     printf("After post-increment the current value of 'a' is :%d\n", a);
     printf("The Value of 'a' pre-increment:%d\n", ++a);
